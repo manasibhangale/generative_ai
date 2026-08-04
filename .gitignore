@@ -1,0 +1,19 @@
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Vector databases
+chroma_db/
+faiss_index/
+
+# Ollama models
+*.bin
+*.gguf
